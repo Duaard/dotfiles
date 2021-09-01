@@ -42,8 +42,8 @@ set timeoutlen=3000
 so ~/.vim/plugins.vim
 
 " Theme
-set bg=dark
-colorscheme Gruvbox
+set bg=light
+colorscheme PaperColor
 
 " Set updatetime, mostly for gitgutter
 set updatetime=100
