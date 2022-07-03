@@ -4,8 +4,8 @@ set noerrorbells
 set relativenumber
 set nu
 set expandtab
-set tabstop=2 softtabstop=2
-set shiftwidth=2
+set tabstop=4 softtabstop=4
+set shiftwidth=4
 set hidden
 set autoindent
 set smartindent
@@ -42,8 +42,13 @@ set timeoutlen=3000
 so ~/.vim/plugins.vim
 
 " Theme
-set bg=light
-colorscheme PaperColor
+" Papercolor
+" set bg=light
+" colorscheme PaperColor
+
+" Ayu
+let ayucolor="light"
+colorscheme ayu
 
 " Set updatetime, mostly for gitgutter
 set updatetime=100
@@ -79,3 +84,6 @@ let g:NERDCreateDefaultMappings = 1
 let g:prettier#autoformat_config_present = 1
 let g:prettier#autoformat_require_pragma = 0
 
+" Vim-Go
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
