@@ -18,6 +18,7 @@ Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'eslint/eslint'
 Plug 'gruvbox-community/gruvbox'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'plasticboy/vim-markdown'
 Plug 'cespare/vim-toml'
 Plug 'heavenshell/vim-jsdoc', {
@@ -26,4 +27,5 @@ Plug 'heavenshell/vim-jsdoc', {
 \}
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'github/copilot.vim'
 call plug#end()

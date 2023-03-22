@@ -43,7 +43,7 @@ so ~/.config/nvim/plugins.vim
 
 " Theme
 set bg=light
-colorscheme PaperColor
+colorscheme catppuccin-latte
 
 " Set updatetime, mostly for gitgutter
 set updatetime=100
@@ -71,6 +71,8 @@ nmap <silent><Leader>gy <Plug>(coc-type-definition)
 nmap <silent><Leader>gi <Plug>(coc-implementation)
 nmap <silent><Leader>gr <Plug>(coc-references)
 nmap <leader>rn <Plug>(coc-rename)
+" COC-prettier
+command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
 
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call ShowDocumentation()<CR>
@@ -96,11 +98,5 @@ let g:NERDTreeMinimalMenu=1
 
 " NERDCommenter
 let g:NERDCreateDefaultMappings = 1
-
-
-" Prettier
-" Autoformat when config file is present
-let g:prettier#autoformat_config_present = 1
-let g:prettier#autoformat_require_pragma = 0
 
 " JSDoc
