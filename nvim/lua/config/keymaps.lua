@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 local map = vim.keymap.set
 map("n", "<leader>fG", LazyVim.pick("files", { no_ignore = true }), { desc = "Find files (no ignore)" })
+map("n", "<leader>fC", '<cmd>let @+ = expand("%:p")<CR>')
