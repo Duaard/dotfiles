@@ -1,0 +1,14 @@
+theme = Catppuccin Latte
+
+# Shell integration
+shell-integration = zsh
+
+# Ensure proper terminfo for tmux
+term = xterm-ghostty
+
+font-size = 16
+
+clipboard-read = allow
+clipboard-write = allow
+
+bell-featuers = no-attention
